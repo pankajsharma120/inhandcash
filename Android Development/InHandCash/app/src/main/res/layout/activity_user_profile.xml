@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activities.UserProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/app_bar_warp"
+                android:layout_height="wrap_content">
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/app_bar_warp_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/add_info_app_bar"
+                        style="@style/Widget.Arth.Toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
+                        app:title="Profile" />
+                </com.google.android.material.appbar.AppBarLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_alignBottom="@id/app_bar_warp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/profileImageIv"
+                                android:layout_marginTop="50dp"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:foreground="@drawable/rounded_profile"
+                                android:src="@drawable/default_profile">
+                            </ImageView>
+
+                            <ImageView
+                                android:id="@+id/changeProfileBtn"
+                                android:layout_alignParentBottom="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#7952B3"
+                                android:padding="12dp"
+                                android:background="@drawable/rounded_border"
+                                android:src="@drawable/ic_perm_media_white_24dp">
+                            </ImageView>
+
+                        </RelativeLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/full_name_tv"
+                            android:layout_margin="24dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:boxBackgroundColor="#E8E8E8"
+                            android:hint="Full name">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <Button
+                            android:id="@+id/submitBtn"
+                            android:textColor="@color/white"
+                            android:paddingHorizontal="48dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Submit" />
+
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

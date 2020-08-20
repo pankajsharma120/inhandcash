@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "416930334229",
+    "firebase_url": "https://inhandcash-aeeb4.firebaseio.com",
+    "project_id": "inhandcash-aeeb4",
+    "storage_bucket": "inhandcash-aeeb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416930334229:android:8602917b5904ddbd3bb01c",
+        "android_client_info": {
+          "package_name": "com.inhandcash.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416930334229-g1o5itfom29n563p55tu5mb920pmdoea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inhandcash.www",
+            "certificate_hash": "f712608dc8ef7de2948cc538702e60f6e612ff17"
+          }
+        },
+        {
+          "client_id": "416930334229-l60pcban9jvjm36k69qeib7gig584pj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADElO2Ys7JiGzgc7l-DeAd6XV23gogmHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416930334229-l60pcban9jvjm36k69qeib7gig584pj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

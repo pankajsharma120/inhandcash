@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/dull_white"
+    android:gravity="center"
+    tools:context=".fragments.InputNoFrag"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/inhandcash_icon">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pin_phn_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:boxBackgroundColor="@color/colorGray"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        app:startIconDrawable="@drawable/ic_phone_android_black_24dp"
+        android:hint="Phone number">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/dull_white"
+            android:enabled="false"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pin_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Received Pin"
+        app:boxStrokeColor="@color/colorPrimary"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/colorGray"
+        app:startIconTint="@color/black"
+        app:startIconDrawable="@drawable/ic_offline_pin_black_24dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGray"
+            android:textColorHighlight="@color/colorGray"
+            android:textColorHint="@color/colorGray" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:id="@+id/verify_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent"
+        android:text="Verify" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:visibility="visible">
+        </ProgressBar>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="Waiting for OTP"></TextView>
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="120dp">
+    </View>
+
+</LinearLayout>

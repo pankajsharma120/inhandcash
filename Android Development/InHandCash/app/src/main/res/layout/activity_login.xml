@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity"
+    android:id="@+id/login_activity"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/input_no_frag"
+        android:name="com.inhandcash.www.fragments.InputNoFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_input_no" />
+
+    <fragment
+        android:id="@+id/input_pin_frag"
+        android:name="com.inhandcash.www.fragments.InputPinFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_input_pin" />
+
+
+</LinearLayout>

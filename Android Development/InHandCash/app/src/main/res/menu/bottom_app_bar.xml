@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:iconTint="@color/white"
+        android:id="@+id/myInfo"
+        android:icon="@drawable/ic_info_white_24dp"
+        android:title="Info"
+        android:contentDescription="My info"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:iconTint="@color/white"
+        android:id="@+id/more"
+        android:title="More"
+        android:contentDescription="more"
+        app:showAsAction="never" />
+</menu>

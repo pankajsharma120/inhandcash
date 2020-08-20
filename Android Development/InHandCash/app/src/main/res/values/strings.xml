@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InHandCash</string>
+    <string name="Rs">\u20B9</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_notification_channel_id">120</string>
+</resources>

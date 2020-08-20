@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#283593</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorGray">#2C2C2C</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="dull_white">#F8F9FA</color>
+    <color name="chat_message_background">#F2F7FB</color>
+    <color name="message_outgoing_bubble">#cce5ff</color>
+    <color name="message_outgoing_text">#004085</color>
+    <color name="success_backgroud">#D4EDDA</color>
+    <color name="transparent_black">#8C000000</color>
+    <color name="danger_light">#F8D7DA</color>
+    <color name="danger">#F44336</color>
+    <color name="success">#4CAF50</color>
+    <color name="success_dark">#1B5E20</color>
+</resources>
+
